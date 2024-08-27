@@ -1,0 +1,91 @@
+
+
+img.logo {
+    
+    position: absolute;
+    top: 0; /* Alinea la imagen en la parte superior */
+    left: 0; /* Alinea la imagen en la parte izquierda */
+    height: 50px; /* Ajusta el tamaño del logo */
+    margin: 10px; /* Margen opcional */
+    
+}
+
+
+.improved-text {
+
+
+font-size: 1.5rem; /* Tamaño de la fuente */
+line-height: 1.6; /* Espaciado entre líneas */
+color: #f0f0f0; /* Color del texto */
+text-align: center; /* Alineación centrada */
+margin: 1.5rem 0; /* Margen superior e inferior */
+font-weight: bold; /* Texto en negrita */
+letter-spacing: 0.05rem; /* Espaciado entre letras */
+
+
+
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+}
+
+header {
+    background-image: url('imagen4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+
+}
+
+nav {
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    font-weight: bold;
+    
+    
+}
+
+section {
+    padding: 3rem 1rem;
+    background-color: #000000;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #141313;
+}
+
+footer p {
+    margin: 0;
+}
+
+
